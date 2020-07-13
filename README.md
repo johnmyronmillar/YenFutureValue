@@ -9,7 +9,9 @@ Time Series Forecasting and Linear Regression Modeling
 
 ![ARMA_forecast](Images/ARMA_forecast.png)
 
-* Based on the ARMA which had a lower AIC than the ARIMA, I would wait one day before buying the Yen, but I would rerun the prediction before purchase. I would also wait because the ARMA Yield Forecast shows downward movement while the Volatility is increasing.
+* Based on the ARMA model I would buying the Yen today, but I would rerun the prediction the next day since the yeild is forecast to decrease the next day and the GARCH model is forecasting increased volatility.
+
+* Based on the AIC, BIC and p value, the ARMA is a better fit than the ARIMA. The P value is less than .5 and the AIC and BIC of the ARMA is a fifth of the ARIMA's AIC and BIC.
 
 ### ARIMA
 
@@ -17,7 +19,9 @@ Time Series Forecasting and Linear Regression Modeling
 
 ![ARIMA_forecast](Images/ARIMA_forecast.png)
 
-* The ARIMA forecast for the Yen is the opposite of the ARMA. The ARIMA forecast and increasing value.
+* The ARIMA forecast for the Yen is steadily increaseing value which matches the ARMA's flat yield after day one. 
+
+* Based on this model I would also buy the Yen, but based on the AIC and BIC scores this model does not look to be a good fit.
 
 ### GARCH
 
@@ -29,7 +33,7 @@ Time Series Forecasting and Linear Regression Modeling
 
 ### Conclusions
 
-* I would feel more confident using the ARMA model and waiting a day, but I would spend that day looking at other models.
+* I would feel more confident using the ARMA model, but both models forecast a buy is better today, than in the next 5 days. If the market has not opened yet, I would looking at other models.
 
 ## Regression Analysis
 
