@@ -3,11 +3,33 @@ Time Series Forecasting and Linear Regression Modeling
 
 ## Time Series Analysis
 
-Use the results of the time series analysis and modeling to answer the following questions:
+### ARMA
 
-1. Based on your time series analysis, would you buy the yen now?
-2. Is the risk of the yen expected to increase or decrease?
-3. Based on the model evaluation, would you feel confident in using these models for trading?
+* ARMA 5 day forecast
+
+![ARMA_forecast](Images/ARMA_forecast.png)
+
+* Based on the ARMA which had a lower AIC than the ARIMA, I would wait one day before buying the Yen, but I would rerun the prediction before purchase. I would also wait because the ARMA Yield Forecast shows downward movement while the Volatility is increasing.
+
+### ARIMA
+
+* ARIMA 5 day forecast
+
+![ARIMA_forecast](Images/ARIMA_forecast.png)
+
+* The ARIMA forecast for the Yen is the opposite of the ARMA. The ARIMA forecast and increasing value.
+
+### GARCH
+
+* Volatility Forecasting
+
+![GARCH_volatility_forecast](Images/GARCH_volatility_forecast.png)
+
+* Based on the GARCH model, the volatility is steadily increasing
+
+### Conclusions
+
+* I would feel more confident using the ARMA model and waiting a day, but I would spend that day looking at other models.
 
 ## Regression Analysis
 
