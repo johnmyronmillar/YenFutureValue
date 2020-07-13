@@ -1,5 +1,12 @@
 # A-Yen-for-the-Future
-Time Series Forecasting and Linear Regression Modeling
+## Time Series Forecasting and Linear Regression Modeling
+
+This analysis uses ARMA, ARIMA, GARCH and Scikit-Learn to answer the following questions about the Yen pricing against the US Dollar:
+
+1. Based on your time series analysis, would you buy the yen now?
+2. Is the risk of the yen expected to increase or decrease?
+3. Based on the model evaluation, would you feel confident in using these models for trading?
+4. Does this model (Scikit-Learn) perform better or worse on out-of-sample data compared to in-sample data?
 
 ## Time Series Analysis
 
